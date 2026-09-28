@@ -15,22 +15,39 @@
         <div class="calculate">
         
         <div class="windows-container">
-            <input placeholder="0"  readonly type="text" maxlength="16" id="window">
+            <input readonly type="text"  id="mirrorWindows">
+            <input placeholder="0"   readonly type="text" maxlength="16" id="window">
         </div> 
        
         <div class="group-numbers">
-            <div class="btn-group-number1">
+            <div class="btn-group-number">
+                <button class="btn-operatorNumber" value="CE">CE</button>
+                <button class="btn-operatorNumber" value="C">C</button>
+            </div>
+            <div class="btn-point" >
+            <button id="btn-point" value=".">.</button>
+            </div>
+            <div class="btn-group-number">
                 <button class="btn-number" value="1">1</button>
                 <button class="btn-number" value="2">2</button>
-                <button class="btn-number" value="3">3</button>
-                <button class="btn-number" value="4">4</button>
-                <button class="btn-number" value="5">5</button>
+               
             </div>  
-        
-            <div class="btn-group-number2">
-                <button class="btn-number" value="6">6</button>
+    
+            <div class="btn-group-number">
+                 <button class="btn-number" value="3">3</button>
+                <button class="btn-number" value="4">4</button>           
+            </div>
+            <div class="btn-group-number">
+                <button class="btn-number" value="5">5</button>
+                <button class="btn-number" value="6">6</button>           
+            </div>
+
+            <div class="btn-group-number">
                 <button class="btn-number" value="7">7</button>
                 <button class="btn-number" value="8">8</button>
+              
+            </div>
+             <div class="btn-group-number">
                 <button class="btn-number" value="9">9</button>
                 <button class="btn-number" value="0">0</button>
             </div>
@@ -51,7 +68,7 @@
      <div class="calculate-history" id="field">
         <h4>Historial</h4>
         <input id="field-history" type="text" readonly>
-        <i id="grabarge-history " class="bi bi-trash3"></i>
+        <i id="grabarge-history" class="bi bi-trash3"></i>
      </div>
     </div>
 
