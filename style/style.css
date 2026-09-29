@@ -137,14 +137,20 @@ body {
     padding-left: 20px;
 }
 
-.container .calculate-history input {
+.container .calculate-history .history {
     width: 100%;
-    height: 650px;
+    height: 610px;
     outline: none;
-    text-align: right;
+    color: #fff;
+
+    overflow-y: auto;
+    
     font-size: 15px;
     border: none;
     background: transparent;
+}
+.container .calculate-history .history p{
+    margin-top: 10px;
 }
 .container .calculate-history i{
     padding: 8px;
